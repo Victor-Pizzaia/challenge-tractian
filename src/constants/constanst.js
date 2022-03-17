@@ -1,3 +1,3 @@
 export const constants = {
-    name: 'Tractian'
-}
+  name: "Tractian",
+};

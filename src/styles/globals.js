@@ -28,4 +28,4 @@ export const ResetCSS = createGlobalStyle`
     a {
         text-decoration: none;
     }
-`
+`;

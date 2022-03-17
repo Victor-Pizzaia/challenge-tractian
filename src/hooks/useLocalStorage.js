@@ -10,14 +10,17 @@ export function useLocalStorage(key, initialValue) {
     }
   });
 
-  const setValue = useCallback((value) => {
+  const setValue = useCallback(
+    value => {
       try {
-          setStoredValue(value);
-          localStorage.setItem(key, JSON.stringify(value));
+        setStoredValue(value);
+        localStorage.setItem(key, JSON.stringify(value));
       } catch (error) {
-          setStoredValue(initialValue);
+        setStoredValue(initialValue);
       }
-  }, [key]);
+    },
+    [key]
+  );
 
   return [storedValue, setValue];
-};
+}
