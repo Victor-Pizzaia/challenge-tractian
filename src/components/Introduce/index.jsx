@@ -2,7 +2,7 @@ import * as Styled from "./Introduce.styled";
 
 export function Introduce({ title, description, link }) {
   return (
-    <Styled.Wrapper>
+    <Styled.Wrapper id="">
       <Styled.MainContent>
         <Styled.Title>{title}</Styled.Title>
         <Styled.Description>{description}</Styled.Description>

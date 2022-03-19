@@ -1,6 +1,7 @@
-import { Header } from "../components/Header/Header";
-import { Introduce } from "../components/Introduce/Introduce";
-import { NextHeader } from "../components/NextHeader/NextHeader";
+import { Header } from "../components/Header";
+import { Introduce } from "../components/Introduce";
+import { NextHeader } from "../components/NextHeader";
+import { About } from "../components/About";
 import * as Styled from "../styles/home.styled";
 
 export default function Home() {
@@ -21,7 +22,12 @@ export default function Home() {
           description="lorem ipsum sia dolor at samet"
           link="Faça uma demonstração"
         />
-        {/* <About />
+        <About
+          content={
+            "Queremos que todos os profissionais de manutenção tenham acesso ao monitoramento online de equipamentos, e a uma plataforma “braço direito” que analisa, fornece insights valiosos, otimiza rotinas e permite tomada de decisões de forma prática e eficaz. Tudo isso só é possível combinando uma plataforma fácil de usar com um sensor IoT rápido de implementar."
+          }
+        />
+        {/* 
         <Services />
         <Choose />
         <Contact /> */}

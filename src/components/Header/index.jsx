@@ -3,7 +3,7 @@ import { constants } from "../../constants/constanst";
 import { useThemeContext, themes } from "../../context/themeContext";
 import { useToggle } from "../../hooks/useToggle";
 import { CloseIcon, HamburguerIcon, MoonIcon, SunIcon } from "../../icons";
-import { NavBar } from "../NavBar/NavBar";
+import { NavBar } from "../NavBar";
 import * as Styled from "./Header.styled";
 
 export function Header({ navItems }) {
