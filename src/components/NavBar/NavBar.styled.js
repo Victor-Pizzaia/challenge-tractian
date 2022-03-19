@@ -16,6 +16,7 @@ export const NavWrapper = styled.div`
       left: 0;
       height: 100vh;
       z-index: 20;
+      background: ${({ theme }) => theme.body.background};
     `}
 
   @media ${mediaQuerys.tablets} {
