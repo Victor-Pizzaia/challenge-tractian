@@ -82,6 +82,15 @@ const choose = {
   ],
 };
 
+const contact = {
+  title: "Entre em contato conosco",
+  mailPlaceholder: "Digite seu E-mail",
+  messagePlaceholder: "Digite aqui sua dúvida",
+  buttonMessage: "Enviar Mensagem",
+};
+
+const footer = "Feito com o ❤ por Victor Hugo Pizzaia";
+
 export const content = {
   nextHeaderTitle,
   navItens,
@@ -89,4 +98,6 @@ export const content = {
   about,
   solutions,
   choose,
+  contact,
+  footer,
 };

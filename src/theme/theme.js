@@ -15,6 +15,9 @@ export const dark = {
   shadow: {
     color: "#fff",
   },
+  footer: {
+    background: "linear-gradient(270deg, rgb(0,187,255) 0%, rgb(9,0,162) 90%);",
+  },
 };
 
 export const light = {
@@ -33,5 +36,8 @@ export const light = {
   },
   shadow: {
     color: "#000",
+  },
+  footer: {
+    background: "linear-gradient(270deg, rgb(0,187,255) 0%, rgb(9,0,162) 90%);",
   },
 };

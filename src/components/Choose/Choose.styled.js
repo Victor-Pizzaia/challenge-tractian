@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { mediaQuerys } from "../../rules/queryRules";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;

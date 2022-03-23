@@ -5,6 +5,8 @@ import {
   NextHeader,
   Solutions,
   Choose,
+  Contact,
+  Footer,
 } from "../components";
 import { content } from "../data";
 import * as Styled from "../styles/home.styled";
@@ -26,10 +28,14 @@ export default function Home() {
           services={content.solutions.services}
         />
         <Choose title={content.choose.title} content={content.choose.content} />
-        {/* 
-        <Contact /> */}
+        <Contact
+          title={content.contact.title}
+          mail={content.contact.mailPlaceholder}
+          message={content.contact.messagePlaceholder}
+          buttonMessage={content.contact.buttonMessage}
+        />
       </Styled.Main>
-      {/* <Footer /> */}
+      <Footer text={content.footer} />
     </>
   );
 }

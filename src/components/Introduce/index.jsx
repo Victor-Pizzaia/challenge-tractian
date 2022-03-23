@@ -1,4 +1,5 @@
 import * as Styled from "./Introduce.styled";
+import { Button } from "../Button";
 
 export function Introduce({ title, description, link }) {
   return (
@@ -6,11 +7,9 @@ export function Introduce({ title, description, link }) {
       <Styled.MainContent>
         <Styled.Title>{title}</Styled.Title>
         <Styled.Description>{description}</Styled.Description>
-        <Styled.Button
-          onClick={() => (location.href = "https://tractian.com/")}
-        >
+        <Button onClick={() => (location.href = "https://tractian.com/")}>
           {link}
-        </Styled.Button>
+        </Button>
       </Styled.MainContent>
       <Styled.ImageWrapper>
         <Styled.Image src="/QualityChart.png" />
