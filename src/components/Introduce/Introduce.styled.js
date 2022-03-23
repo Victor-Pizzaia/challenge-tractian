@@ -20,9 +20,11 @@ export const MainContent = styled.div`
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  align-items: center;
 
   @media ${mediaQuerys.tablets} {
     text-align: start;
+    align-items: flex-start;
   }
 `;
 

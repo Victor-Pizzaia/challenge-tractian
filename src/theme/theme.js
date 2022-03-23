@@ -1,6 +1,6 @@
 export const dark = {
   body: {
-    background: "#2C3E50",
+    background: "linear-gradient(79.63deg, #161616 12.08%, #1E3A8A 216.5%)",
   },
   header: {
     background:
@@ -10,6 +10,7 @@ export const dark = {
   color: {
     textColor: "#F9FAFB",
     lightGray: "#EAEDED",
+    darkBlue: "#1078E9",
   },
 };
 
@@ -25,5 +26,6 @@ export const light = {
   color: {
     textColor: "#171616",
     lightGray: "#EAEDED",
+    darkBlue: "#1078E9",
   },
 };

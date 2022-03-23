@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useCallback } from "react";
 import { constants } from "../../constants/constanst";
 import { useThemeContext, themes } from "../../context/themeContext";
 import { useToggle } from "../../hooks/useToggle";
