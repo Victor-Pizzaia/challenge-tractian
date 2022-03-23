@@ -1,15 +1,11 @@
 ## 🧪 Technologies
 
----
-
 This app was maded with:
 
 - [NextJs](https://nextjs.org/)
 - [Styled Components](https://styled-components.com/)
 
 ## 🚀 How to Run
-
----
 
 First clone the project and access the folder.
 
@@ -35,8 +31,6 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## 💻 Project
-
----
 
 This project was made for complete the front-end web developer challenge from [Tractian](https://tractian.com/) company
 
