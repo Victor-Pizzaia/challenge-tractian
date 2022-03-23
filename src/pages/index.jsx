@@ -30,7 +30,7 @@ export default function Home() {
         <Choose title={content.choose.title} content={content.choose.content} />
         <Contact
           title={content.contact.title}
-          mail={content.contact.mailPlaceholder}
+          name={content.contact.namePlaceholder}
           message={content.contact.messagePlaceholder}
           buttonMessage={content.contact.buttonMessage}
         />

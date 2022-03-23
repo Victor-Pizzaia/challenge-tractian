@@ -84,7 +84,7 @@ const choose = {
 
 const contact = {
   title: "Entre em contato conosco",
-  mailPlaceholder: "Digite seu E-mail",
+  namePlaceholder: "Digite seu Nome",
   messagePlaceholder: "Digite aqui sua dúvida",
   buttonMessage: "Enviar Mensagem",
 };

@@ -3,8 +3,8 @@ import { Button } from "../Button";
 import * as Styled from "./Contact.styled";
 import { constants } from "../../constants/constanst";
 
-export function Contact({ title, mail, message, buttonMessage }) {
-  const [sender, setSender] = React.useState({ mail: "", message: "" });
+export function Contact({ title, name, message, buttonMessage }) {
+  const [sender, setSender] = React.useState({ name: "", message: "" });
   const changeState = event => {
     const { name, value } = event.target;
     setSender(prev => ({ ...prev, [name]: value }));
@@ -14,9 +14,9 @@ export function Contact({ title, mail, message, buttonMessage }) {
     <Styled.Wrapper id="contact">
       <Styled.Title>{title}</Styled.Title>
       <Styled.Email
-        placeholder={mail}
-        value={sender.mail}
-        name="mail"
+        placeholder={name}
+        value={sender.name}
+        name="name"
         onChange={changeState}
       ></Styled.Email>
       <Styled.Message
@@ -29,7 +29,7 @@ export function Contact({ title, mail, message, buttonMessage }) {
         style={{ width: 200 }}
         onClick={() =>
           open(
-            `mailto:${constants.email}?subject=${sender.mail}&body=${sender.message}`
+            `mailto:${constants.email}?subject=${sender.name}&body=${sender.message}`
           )
         }
       >
