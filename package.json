@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cleanup": "prettier --write ./src"
+    "cleanup": "prettier --write ./src",
+    "pre-commit": "yarn build && yarn lint && lint-staged"
   },
   "dependencies": {
     "next": "12.1.0",
@@ -20,6 +21,8 @@
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0",
     "eslint-config-prettier": "^8.5.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
     "prettier": "^2.6.0"
   }
 }
