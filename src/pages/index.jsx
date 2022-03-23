@@ -1,4 +1,11 @@
-import { About, Header, Introduce, NextHeader, Solutions } from "../components";
+import {
+  About,
+  Header,
+  Introduce,
+  NextHeader,
+  Solutions,
+  Choose,
+} from "../components";
 import { content } from "../data";
 import * as Styled from "../styles/home.styled";
 
@@ -18,8 +25,8 @@ export default function Home() {
           content={content.solutions.content}
           services={content.solutions.services}
         />
+        <Choose title={content.choose.title} content={content.choose.content} />
         {/* 
-        <Choose />
         <Contact /> */}
       </Styled.Main>
       {/* <Footer /> */}

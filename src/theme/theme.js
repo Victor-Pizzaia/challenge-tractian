@@ -12,6 +12,9 @@ export const dark = {
     lightGray: "#EAEDED",
     darkBlue: "#1078E9",
   },
+  shadow: {
+    color: "#fff",
+  },
 };
 
 export const light = {
@@ -27,5 +30,8 @@ export const light = {
     textColor: "#171616",
     lightGray: "#EAEDED",
     darkBlue: "#1078E9",
+  },
+  shadow: {
+    color: "#000",
   },
 };
